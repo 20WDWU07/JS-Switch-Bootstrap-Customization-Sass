@@ -22,10 +22,10 @@ switch (cardType) {
             console.log("Clubs");
             $('#playCardHeading').text('Clubs');
             for (i = 2; i <= 10; i++) {
-              $('#result').append('<img class="m-auto d-block col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 p-4 img-thumbnail" src="PNG/' + i + 'c.png" alt="Clubs"/>')
+              $('#result').append('<img class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 p-4 img-thumbnail" src="PNG/' + i + 'c.png" alt="Clubs"/>')
             }
             for (j = 0; j < cardArray.length; j++){
-              $('#result').append('<img class="m-auto d-block col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 p-4 img-thumbnail" src="PNG/' + cardArray[j] + 'c.png" alt="Clubs"/>')
+              $('#result').append('<img class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 p-4 img-thumbnail" src="PNG/' + cardArray[j] + 'c.png" alt="Clubs"/>')
             }
             break; //break the flow of execution and go out of switch structure
           }
@@ -34,10 +34,10 @@ switch (cardType) {
             console.log("diamonds");
             $('#playCardHeading').text('Diamonds');
             for (i = 2; i <= 10; i++) {
-              $('#result').append('<img class="m-auto d-block col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 p-4 img-thumbnail" src="PNG/' + i + 'd.png" alt="Diamonds"/>')
+              $('#result').append('<img class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 p-4 img-thumbnail" src="PNG/' + i + 'd.png" alt="Diamonds"/>')
             }
             for (j = 0; j < cardArray.length; j++){
-              $('#result').append('<img class="m-auto d-block col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 p-4 img-thumbnail" src="PNG/' + cardArray[j] + 'd.png" alt="Diamonds"/>')
+              $('#result').append('<img class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 p-4 img-thumbnail" src="PNG/' + cardArray[j] + 'd.png" alt="Diamonds"/>')
             }
             break;
           }
@@ -46,10 +46,10 @@ switch (cardType) {
             console.log("Hearts");
             $('#playCardHeading').text('Hearts');
             for (i = 2; i <= 10; i++) {
-              $('#result').append('<img class="m-auto d-block col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 p-4 img-thumbnail" src="PNG/' + i + 'h.png" alt="Hearts"/>')
+              $('#result').append('<img class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 p-4 img-thumbnail" src="PNG/' + i + 'h.png" alt="Hearts"/>')
             }
             for (j = 0; j < cardArray.length; j++){
-              $('#result').append('<img class="m-auto d-block col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 p-4 img-thumbnail" src="PNG/' + cardArray[j] + 'h.png" alt="Hearts"/>')
+              $('#result').append('<img class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 p-4 img-thumbnail" src="PNG/' + cardArray[j] + 'h.png" alt="Hearts"/>')
             }
             break;
           }
@@ -57,10 +57,10 @@ switch (cardType) {
             console.log("Spades");
             $('#playCardHeading').text('Spades');
             for (i = 2; i <= 10; i++) {
-              $('#result').append('<img class="m-auto d-block col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 p-4 img-thumbnail" src="PNG/' + i + 's.png" alt="Spades"/>')
+              $('#result').append('<img class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 p-4 img-thumbnail" src="PNG/' + i + 's.png" alt="Spades"/>')
             }
             for (j = 0; j < cardArray.length; j++){
-              $('#result').append('<img class="m-auto d-block col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 p-4 img-thumbnail" src="PNG/' + cardArray[j] + 's.png" alt="Spades"/>')
+              $('#result').append('<img class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 p-4 img-thumbnail" src="PNG/' + cardArray[j] + 's.png" alt="Spades"/>')
             }
             break;
           }
