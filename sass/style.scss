@@ -1,0 +1,19 @@
+$blue : #33D1FF; //primary
+$gray-600 : #5A6569; //secondary
+$cyan : #9A63BF; //info
+$gray-100 :#DDBF5D; //light
+$gray-800 : #342802; //dark
+$jumbotron-bg : #96928F; //jumbotron background
+$display1-size : 5rem;
+$display2-size : 4rem;
+$display3-size : 3rem;
+$display4-size : 2rem;
+$headings-font-family : "Arial";
+$spacer: 2rem !default; //margin and padding overall spacing size
+
+
+
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+@import "../bootstrap-4.5.3/scss/bootstrap.scss";
